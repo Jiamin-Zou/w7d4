@@ -29,6 +29,9 @@
 	ul {
 		display: flex;
 	}
+	li:first-of-type{
+		font-weight: bold;
+	}
 }
 
 .logo {
@@ -43,10 +46,14 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 
+
 	li {
 		margin-left: 10px;
 		border-right: 1px solid $light-gray;
 		list-style: none;
+	}
+	li:last-of-type{
+		border-right: none;
 	}
 
 	button {
@@ -81,3 +88,6 @@ a:hover{
 	text-decoration: underline;
 	background-color: none;
 }
+
+
+ 
